@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://andriynykytiuk.github.io/rescueService333/",
+  "homepage": "https://andriynykytiuk.github.io/enviormentRescueTeamLead/",
   "scripts": {
     "dev": "vite",
     "lint": "eslint .",
