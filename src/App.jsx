@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Body from './Body'
 import Footer from './components/Footer'
+import AutorisatComponent from './components/AutorisatComponent'
 import { SelectionProvider } from './SelectionProvider'
 
 const App = () => {
@@ -9,9 +10,11 @@ const App = () => {
     <>
    <SelectionProvider>
       <div>
-        <Header/>
-        <Body/>
-        <Footer/>
+        
+        <AutorisatComponent/>
+        {/*
+        <Header/><Body/>*/}
+        
       </div>
    </SelectionProvider> 
     </>
