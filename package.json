@@ -3,17 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://andriynykytiuk.github.io/dsns-enviorment/",
+ "homepage": "https://AndriyNykytiuk.github.io/dsns-enviorment",
+
   "scripts": {
-    "dev": "vite",
-    "lint": "eslint .",
+   "dev": "vite",
+  "lint": "eslint .",
     "preview": "vite preview",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "vite build",
+    "test": "vitest",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.14",

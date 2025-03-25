@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
+  publicDir: "public" ,
   base:"/dsns-enviorment"
  
 })
