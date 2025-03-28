@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../img/logo.svg'
 
-const AutorizationPage = () => {
+const AutorizationPage = ({onAutorise}) => {
     const squadrons = [
         { 
             id: 1, 
@@ -90,7 +90,7 @@ const AutorizationPage = () => {
                 <label className=' text-[#fffff0] '> Я буду тільки дивитися</label>
                 
                </div>
-               <button className='p-2 rounded bg-[#eeb47c] '>Авторизуватися</button>
+               <button onClick={onAutorise} className='p-2 rounded bg-[#eeb47c] '>Авторизуватися</button>
             </div>
         </>
     )

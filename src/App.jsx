@@ -6,17 +6,28 @@ import AutorisatComponent from './components/AutorisatComponent'
 import { SelectionProvider } from './SelectionProvider'
 
 const App = () => {
+  const[isAutorised, setAutorised]=React.useState(false)
+
+  function onAutorise(){
+    setAutorised((prevState)=>!prevState)
+  }
+
   return (
     <>
    <SelectionProvider>
       <div>
+        {isAutorised ? (<>  
         
-        <AutorisatComponent/>
-        {/*
-        <Header/><Body/>*/}
+        <Header/>
+        <Body/>
+        </>):(<AutorisatComponent 
+              onAutorise={onAutorise}
+              />)}
+       
         
+      
       </div>
-   </SelectionProvider> 
+   </SelectionProvider > 
     </>
   )
 }

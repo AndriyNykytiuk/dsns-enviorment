@@ -4,11 +4,11 @@ const Header = () => {
   return (
     <>
     <section className=' min-h-24 bg-[#163f6b] p-5'>
-        <div className=' flex items-center justify-center mb-15'>
+        <div className=' flex items-center justify-center mb-5'>
             <img className=' w-30 h-30' src={Logo} alt="Image"/>
         </div>
         <div className='flex items-center justify-center text-[#ffffff]'>
-          <p > наглядова справа  </p>
+          <p > Служба порятунку Рівненщини </p>
         </div>
     </section>
     
