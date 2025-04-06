@@ -7,7 +7,8 @@ import { SelectionProvider } from './SelectionProvider'
 
 const App = () => {
   const[isAutorised, setAutorised]=React.useState(false)
-
+  const storedData = localStorage.getItem('leaderData');
+  console.log(storedData)
   function onAutorise(){
     setAutorised((prevState)=>!prevState)
   }
